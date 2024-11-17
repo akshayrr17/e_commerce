@@ -53,7 +53,7 @@
                         <a class="nav-link active" aria-current="page" href="{{ url('/') }}">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('categories.index') }}">Category</a>
+                        <a class="nav-link" href="{{ URL::to('/') }}">Category</a>
                     </li>
                 </ul>
             </div>
